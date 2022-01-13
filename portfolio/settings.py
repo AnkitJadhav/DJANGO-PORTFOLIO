@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l3ihuzp!qn&wix-!10gedi0^!s^*a798ii691a$iewc(mt(j9e
 DEBUG = True
 
 # ALLOWED_HOSTS = ['127.0.0.1','ankitjadhavportfolio.herokuapp.com']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ankitjadhav.pythonanywhere.com']
 
 
 # Application definition
@@ -116,8 +116,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 STATIC_URL = 'static/'
+STATIC_ROOT = '/home/AnkitJadhav/DJANGO-PORTFOLIO/static'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
